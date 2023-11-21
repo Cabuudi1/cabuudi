@@ -1,0 +1,400 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: cemtre;
+	padding: 35px;
+	max-width: 1070px;
+	width: 100%;
+}
+.logo{
+    flex-basis: 30%;
+}
+.menu{
+	flex-basis: 50%;
+}
+.heart{
+	flex-basis: 10%;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 25px;
+
+
+
+}
+.shop{
+	flex-basis: 10%;
+}
+.heart img{
+	height: 20px;
+	width: 20px;
+	justify-content: center;
+	align-items: centre;
+	border-radius: 70%;
+
+
+	
+}
+.shop img{
+	height: 20px;
+	width: 20px;
+	justify-content: center;
+	align-items: centre;
+	border-radius: 50%;
+
+}
+.logo a{
+	color: black;
+	text-decoration-line: none;
+	padding: 20px;
+	margin-left: 30px;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+
+
+
+}
+.menu a{
+	color: black;
+	text-decoration-line: NONE;
+	margin-right: 20px;
+	padding: 3px 10px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+.user1 img{
+	width: 50px;
+	margin-bottom: -30px;
+	margin: -20px;
+
+}
+.logo span{
+	color: green;
+}
+.menu a:hover{
+	background-color: green;
+	transition: all ease 0.3s;
+
+}/* intan waxa u isticmalay logo iyo links kore*/
+.search{
+	max-width: 1250px;
+	height: 500px;
+	border-radius: 30px;
+	background-color: lightseagreen;
+	margin-left: 10px auto;
+	position: relative;
+	overflow: hidden;
+	background-image: url(./bg.png);
+	background-size: 1000px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	display: flex;
+	align-items: center;
+
+}
+.search img {
+	position: absolute;
+	left: -50px;
+	top: -150px;
+	width: 300px;
+	height: 300px;
+	object-fit: contain;
+	object-position: centre;
+	
+}
+.pic img{
+	position: absolute;
+	left: 60%;
+	transform: translateX(-60%);
+	top: -75px;
+	width: 150px;
+	height: 150px;
+	object-position: center;
+	object-fit: contain;
+}
+.qoraal{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin-left: 70px;
+	position: relative;
+
+
+}
+.qoraal h1{
+	font-size: 3rem;
+line-height: 55px;
+
+}/* intan waxa u isticmalay background cagaran qudarta leh */
+.icon{
+	display: flex;
+	margin-left: 70px;
+	align-items: center;
+	font-size:20px;
+}/* kan waa magaca ka koreya icons */
+.zerka{
+	display: flex;
+}
+.icon1{
+	flex-basis: 16%;
+	width: 50px;
+	height: 95px;
+	border-radius: 10px;
+	background-color: whitesmoke;
+	margin: 10px;
+	text-align: center;
+	align-items: center;
+	padding: 20px;
+
+}
+.icon1 :hover{
+	background-color: green;
+}
+
+
+.icon1 img{
+	height: 40px;
+	margin-right: 20px;
+	object-position: center;
+	
+
+}
+
+.icon1 h2{
+	font-size: 20px;
+	align-items: center;
+	text-align: center;
+
+
+}/* page waxa u isticmalay icons iyo h2 */
+.page{
+	display: flex;
+}
+.madax{
+	flex-basis: 50%;
+}
+.head{
+	flex-basis: 50%;
+}
+.madax h1{
+	font-size: 20px;
+	margin: 20px auto ;
+	font-weight: bold;
+}
+.head h1{
+		font-size: 20px;
+	margin: 20px;
+	font-weight: bold;
+	border-radius: 20px;
+	background-color: green;
+margin-left: 200px;
+text-align: center;
+
+
+}
+.tufaax{
+	display: flex;
+
+}
+.apple{
+	flex-basis: 33%;
+	height: 220px;
+	width: 50%;
+	border-radius: 20px;
+	margin: 25px;
+	background-color: whitesmoke;
+	align-items: center;
+	text-align: center;
+
+	
+
+	
+
+}
+.apple img{
+	height: 100px;
+	width: 100px;
+	object-position: center;
+	object-fit: contain ;
+
+}
+.apple h2,h3{
+	font-size: 15px;
+	text-align: centre;
+	display: flex;
+	
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+.apple h4{
+	margin-right: 40px;
+	text-align: left ;
+}
+.canbe{
+	display: flex;
+}
+.abdala{
+	display: flex;
+	
+	border-radius: 30px;
+	padding: 20px;
+
+
+}
+.adna{
+	display: flex;
+}
+.karooto{
+
+	flex-basis: 33%;
+	height: 220px;
+	width: 200px;
+	border-radius: 20px;
+	margin: 25px;
+	background-color: floralwhite;
+	text-align: center;
+	margin-top: 20px;
+
+
+}
+.karooto img{
+	height: 60px;
+	padding: 20px;
+}
+.karooto h2{
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 10px;
+
+	
+}
+.karooto h3{
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 10px;
+	
+
+
+}
+.karooto p{
+	text-align: left;
+	letter-spacing: 1px;
+	margin: 10px;
+	
+}
+.featureProducts{
+	background-color: lightseagreen;
+	padding: 20px;
+	margin: 20px;
+}
+.clients{
+	display: flex;
+}
+.user img{
+	height: 70px;
+	width: 70px;
+	margin: 20px;
+}
+.user {
+	flex-basis: 50%;
+	background-color: whitesmoke;
+
+	display: flex;
+	margin: 10px;
+	border-radius: 10px;
+	margin: 20px 20px;
+	
+
+}
+.sawir p{
+	font-size: 10px;
+	margin-top: -15px;
+	font-weight: bold;
+	color: black;
+
+}
+
+.sawir img{
+	height: 20px;
+	text-align: left;
+	justify-content: left;
+	margin-top: 0px;}
+.cade{
+	display: flex;
+	font-size: 1rem;
+line-height: 10px;
+margin-right: 20px;
+text-align: center;
+
+}
+.dowload{
+	
+	padding: 30px;
+	background-color: lightseagreen;
+	
+	text-align: center;
+	margin: 20px 80px;
+	border-radius: 20px;
+
+}
+.dowload h1,p {
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+
+}
+
+.dowload img{
+	height: 80px;
+	width: 100px;
+	margin: 10px;
+
+}
+.logoo{
+	display: flex;
+	margin: 10px;
+}
+.logo1,.logo2,.logo3{
+	flex-basis: 33.3%;
+}
+
+.logo2 img{
+	width: 150px;
+	margin-top: 10px;
+}
+.logo1 img{
+	width: 110px;
+	margin-top: 5px;
+	margin: 0px 25px;
+}
+.logo4 img{
+	width: 100px;
+}
+.logo1,.logo2,.logo3,.logo4 img{
+	margin: 0px 55px;
+	align-items: center;
+	object-position: center;
+	text-align: center;
+}
+.last{
+	display: flex;
+	background-color: lightseagreen;
+	padding: 10px;
+	margin: 20px 80px;
+	text-align: center;
+	border-radius: 10px;
+
+
+}
+.open{
+	flex-basis: 33%;
+}
+.open,p,h1{
+	color: black;
+	
+
+}
